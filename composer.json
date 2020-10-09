@@ -1,0 +1,21 @@
+{
+    "name": "dnarsain/magento2-module-order-export",
+    "description": "Magento 2 module to export order for specific date range",
+    "config": {
+        "sort-packages": true
+    },
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Dinesh\\OrderExport\\": ""
+        }
+    },
+    "version": "0.0.1"
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+      <add id="Dinesh_OrderExport::orders" title="Orders" translate="title" module="Dinesh_OrderExport" parent="Magento_Reports::report" sortOrder="50" dependsOnModule="Dinesh_OrderExport" resource="Dinesh_OrderExport::orders"/>
+      <add id="Dinesh_OrderExport::orders_export_csv" title="Export to CSV" translate="title" module="Dinesh_OrderExport" parent="Dinesh_OrderExport::orders" sortOrder="10" dependsOnModule="Dinesh_OrderExport" action="dn_orderexport/order" resource="Dinesh_OrderExport::orders"/>
+    </menu>
+</config>
